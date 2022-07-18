@@ -1,0 +1,99 @@
+.title {text-align: center;
+        background-color:rgb(32, 132, 247);
+        text-decoration: underline;
+        padding:20px;
+        margin: 10px;
+        font-size: 100px;
+        font-family:cursive;
+        border: grey:20px;
+
+     }
+
+.subtitle 
+
+a.links {color: white;}
+a.links:hover {color: steelblue;}
+a.links:active {color: 100,100,100;}
+a.links:visited {color:purple;}
+a.visited,
+a:visited:hover {color:green;}
+
+
+	       
+h1 {position:relative;
+	text-align: center;
+    font-family:monospace;
+    text-decoration: underline; 
+        }
+h1:before {content:;
+position:absolute;}        
+
+p   {text-align: center;
+	 color:rgb(32, 132, 247);
+	 font-family: cursive;}
+
+body {background-color:rgb(36, 38, 36);
+       }
+
+h3 {color: ;
+    justify-content: center;
+    font-family: cursive;
+    text-align: center;
+    text-decoration:underline; 
+    border-color: white;
+     }
+h4  {
+	color:rgb(32, 132, 247);
+    justify-content: center;
+    font-family: cursive;
+    text-align: center;
+    text-decoration:underline; 
+    border-color: white;}          
+
+/* Container2 - OdinProject*/
+.wrapper { background-color:rgb(36, 38, 36);
+	padding: 5px;
+	max-width: 90%;
+	width: 80%;
+	margin: 10px auto;
+	justify-content: center;
+       }
+
+header {
+	padding:0 15px;
+
+        }
+/*Wrapper OdinProject */
+.container {
+	border-radius: 5px; 
+	border-color: steelblue;
+	display:flex;
+	flex-flow:row-wrap;
+	justify-content: center;
+	margin: 5px 0;
+        }
+
+.column {
+	border: 2px solid red;
+	max-height:260px;
+	max-width: 250px;
+	flex: 1;
+	border: 5px pink;
+	margin: 10px;
+	padding: 30px;
+	overflow:;
+	&:first-child {margin-
+		left: 0;}
+		&:last-child {margin-
+			right: 0; 
+		}		
+      }
+
+
+img	{border-radius:30px;
+     border: 1px solid: red;
+     padding: 5px;
+     width:100%;
+     height:200px;
+
+         }
